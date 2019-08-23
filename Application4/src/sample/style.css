@@ -1,0 +1,57 @@
+.pane3{
+    -fx-background-image: url("Images/8.jpg");
+    -fx-background-size: cover;
+}
+.pane2{
+    -fx-background-image: url("Images/2.jpg");
+    -fx-background-size: cover;
+}
+.pane8{
+    -fx-background-image: url("Images/4.jpg");
+    -fx-background-size: cover;
+}
+.pane4{
+    -fx-background-image: url("Images/5.jpg");
+    -fx-background-size: cover;
+}
+.pane6{
+    -fx-background-image: url("Images/6.jpg");
+    -fx-background-size: cover;
+}
+.pane7{
+    -fx-background-image: url("Images/7.jpg");
+    -fx-background-size: cover;
+}
+.pane2{
+    -fx-background-image: url("Images/4.jpg");
+    -fx-background-size: cover;
+}
+.pane1{
+    -fx-background-image: url("Images/6.jpg");
+    -fx-background-size: cover;
+}
+.pane9{
+    -fx-background-image: url("Images/8.jpg");
+    -fx-background-size: cover;
+}
+.pane5{
+    -fx-background-image: url("Images/7.jpg");
+    -fx-background-size: cover;
+}
+
+.mainpane{
+    -fx-opacity: 1;
+    -fx-background-color:  rgba(255, 255, 255, 0.2);
+
+}.sampane{
+     -fx-opacity: 1;
+     -fx-background-color:  rgba(255, 255, 255, 0.6);
+ }
+
+ .scrolpane{
+     -fx-background-color: transparent;
+     -fx-border-radius: 10;
+     -fx-border-color: transparent;
+     -fx-padding: 0px;
+     -fx-background-radius: 1em;
+ }

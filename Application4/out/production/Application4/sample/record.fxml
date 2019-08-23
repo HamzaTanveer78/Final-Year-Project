@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="434.0" prefWidth="514.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.recordClass">
+   <children>
+      <Pane prefHeight="514.0" prefWidth="500.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="477.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <JFXTextField layoutX="177.0" layoutY="18.0" prefHeight="25.0" prefWidth="289.0" />
+            <Label layoutX="56.0" layoutY="18.0" prefHeight="25.0" prefWidth="96.0" text="  Enter CNIC" />
+            <JFXButton buttonType="RAISED" layoutX="564.0" layoutY="18.0" prefHeight="25.0" prefWidth="109.0" text="Search" />
+         </children>
+      </Pane>
+      <TableView layoutX="7.0" layoutY="132.0" prefHeight="305.0" prefWidth="500.0">
+        <columns>
+          <TableColumn prefWidth="116.99996948242188" text="UserName" />
+          <TableColumn prefWidth="84.00003051757812" text="FirstName" />
+            <TableColumn prefWidth="81.0" text="LastName" />
+            <TableColumn prefWidth="114.0" text="CNIC" />
+            <TableColumn prefWidth="104.0" text="Date of Birth" />
+            <TableColumn minWidth="0.0" prefWidth="173.0" text="Address" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

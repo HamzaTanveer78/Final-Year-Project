@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.loginClass">
+   <children>
+      <Pane fx:id="pane1" layoutX="294.0" layoutY="82.0" prefHeight="200.0" prefWidth="200.0" styleClass="pane1" stylesheets="@style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Pane fx:id="pane2" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" styleClass="pane2" stylesheets="@style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Pane fx:id="pane3" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" styleClass="pane3" stylesheets="@style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Pane fx:id="pane4" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" styleClass="pane4" stylesheets="@style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Pane fx:id="pane5" prefHeight="200.0" prefWidth="200.0" styleClass="pane5" stylesheets="@style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Pane fx:id="pane6" prefHeight="200.0" prefWidth="200.0" styleClass="pane6" stylesheets="@style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Pane fx:id="pane7" prefHeight="200.0" prefWidth="200.0" styleClass="pane7" stylesheets="@style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Pane fx:id="pane8" prefHeight="200.0" prefWidth="200.0" styleClass="pane8" stylesheets="@style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Pane fx:id="pane9" prefHeight="200.0" prefWidth="200.0" styleClass="pane9" stylesheets="@style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Pane fx:id="sampane" layoutX="513.0" layoutY="40.0" prefHeight="421.0" prefWidth="348.0" style="-fx-background-radius: 50px;" styleClass="sampane" stylesheets="@style.css">
+         <children>
+            <Label layoutX="88.0" layoutY="35.0" prefHeight="42.0" prefWidth="200.0" text="Welcome to PLR System" textFill="#027c11">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <JFXTextField alignment="CENTER" focusColor="WHITE" layoutX="66.0" layoutY="129.0" prefHeight="33.0" prefWidth="222.0" promptText="Username" style="-fx-background-radius: 8px; -fx-background-color: #fff;" unFocusColor="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <effect>
+                  <DropShadow blurType="GAUSSIAN" color="#eee8e8" />
+               </effect>
+            </JFXTextField>
+            <JFXPasswordField alignment="CENTER" focusColor="#8d8d8d00" layoutX="66.0" layoutY="219.0" prefHeight="33.0" prefWidth="222.0" promptText="Password" style="-fx-background-radius: 8px; -fx-background-color: #fff;" unFocusColor="WHITE">
+               <effect>
+                  <DropShadow color="#eee8e8" />
+               </effect>
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </JFXPasswordField>
+            <JFXButton fx:id="getstart" layoutX="66.0" layoutY="298.0" onAction="#getstart" prefHeight="33.0" prefWidth="222.0" style="-fx-background-color: #47ef4d;" text="GET STARTED" textFill="WHITE">
+               <effect>
+                  <DropShadow color="#219e1c" />
+               </effect>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
